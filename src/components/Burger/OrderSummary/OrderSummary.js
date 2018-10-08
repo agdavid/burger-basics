@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
+    // this could be a functional component, not class-based
+    // lifecycle methods included for debugging purposes
     componentWillUpdate() {
         console.log('[OrderSummary] willUpdate');
     }
